@@ -1,0 +1,47 @@
+name = Travel Jordan
+description = A Bootstrap Sub-theme for travel jordan agency.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]      = 'Navigation'
+regions[header]          = 'Top Bar'
+regions[homepage_banner] = 'Homepage Banner'
+regions[mid_container]	 = 'Middle Container'
+regions[help]            = 'Help'
+regions[content]         = 'Content'
+regions[footer_top]		 = 'Footer Top'
+regions[footer]          = 'Footer'
+regions[footer_bottom]   = 'Footer Bottom'
+regions[page_top]        = 'Page top'
+regions[page_bottom]     = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+stylesheets[all][] = bootstrap/css/bootstrap.min.css
+stylesheets[all][] = css/jquery.selectBox.css
+stylesheets[all][] = css/style.css
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Bootstrap JS
+;;;;;;;;;;;;;;;;;;;;;
+scripts[] = bootstrap/js/bootstrap.min.js
+scripts[] = scripts/jquery.selectBox.js
+scripts[] = scripts/traveljordan.js
+
+
+
+;; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+settings[bootstrap_cdn] = ''
+
+
+;; Theme features
+features[] = name
+features[] = main_menu
