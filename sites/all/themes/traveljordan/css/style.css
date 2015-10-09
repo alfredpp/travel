@@ -896,7 +896,25 @@ label.error {
 #main-section {
   margin: 35px 0; }
 
-#lang-dropdown-select-language:before {
-  content: 'Language: '; }
+#block-lang-dropdown-language {
+  padding-top: 5px;
+  width: 230px !important; }
+  #block-lang-dropdown-language:before {
+    content: 'Language: ';
+    float: left;
+    color: #8F8F8F; }
+  #block-lang-dropdown-language form {
+    float: right; }
+    #block-lang-dropdown-language form .dd-select {
+      border: none !important;
+      background: #fff none repeat scroll 0 0 !important;
+      width: 100px; }
+      #block-lang-dropdown-language form .dd-select a {
+        padding: 0; }
+        #block-lang-dropdown-language form .dd-select a label {
+          color: #000; }
+
+#block-block-3 {
+  float: right; }
 
 /*# sourceMappingURL=style.css.map */

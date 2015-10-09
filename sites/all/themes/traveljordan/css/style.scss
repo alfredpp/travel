@@ -1122,8 +1122,27 @@ label.error {
   margin: 35px 0;
 }
 
-#lang-dropdown-select-language {
+#block-lang-dropdown-language {
+  padding-top: 5px;
   &:before {
     content: 'Language: ';
+    float: left;
+    color: #8F8F8F;
   }
+  width: 230px !important;
+  form {
+    float: right;
+    .dd-select {
+      border: none !important;
+      background: #fff none repeat scroll 0 0 !important;
+      width: 100px;
+      a {
+        padding: 0;
+        label {color: #000;}
+      }
+    }
+  }
+}
+#block-block-3 {
+  float: right;
 }
