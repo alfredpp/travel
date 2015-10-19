@@ -1146,3 +1146,121 @@ label.error {
 #block-block-3 {
   float: right;
 }
+
+.client-feedback-page {
+  .block-title {
+    font-family: "Lato";
+    font-size: 36px;
+    font-weight: bold;
+    margin: 40px 0 20px;
+    text-align: center;
+  }
+  .intermediate-text {
+    color: #2d343e;
+    font-family: "Lato";
+    font-size: 12px;
+    text-align: center;
+    &::after {
+      border-bottom: 2px solid #12a9cd;
+    }
+  }
+  .blue {
+    color: #12a9cd;
+  }
+  .text {
+    color: #2d343e;
+    font-family: "Lato";
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+
+  }
+}
+
+/**
+ * Testimonials sidebar changes
+ */
+.testimonial-sidebar-row {
+  margin-bottom: 20px;
+  .top-box {
+    background-color: #12a9cd;
+    height: auto;
+    position: relative;
+    padding: 40px 0 40px 35%;
+    &:after {
+      position: absolute;
+      top: 100%;
+      left: 48%;
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-top: 20px solid #12a9cd;
+      z-index: 1000;
+      content: "";
+    }
+    img {
+      border-radius: 50%;
+    }
+    .user-name {
+      color: white;
+      font-family: "Lato";
+      font-weight: bold;
+      margin-left: 10px;
+      margin-top: 10px;
+      text-align: center;
+      font-size: 16px;
+    }
+  }
+  .video {
+    position: relative;
+    overflow: hidden;
+    content: " ";
+    height: 180px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    background-color: #000;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";       /* IE 8 */
+    filter: alpha(opacity=70);  /* IE 5-7 */
+    -moz-opacity: 0.8;          /* Netscape */
+    -khtml-opacity: 0.8;        /* Safari 1.x */
+    opacity: 0.8;               /* Good browsers */
+    img {
+      height: 180px;
+      transform: scale(2, 2);
+      -ms-transform: scale(2, 2); /* IE 9 */
+      -webkit-transform: scale(2, 2); /* Chrome, Safari, Opera */
+      transform-origin: 40px 50px 0;
+      -webkit-transform-origin: 40px 50px 0; /* Chrome, Safari, Opera */
+      -ms-transform-origin: 40px 50px 0; /* IE 9 */
+    }
+    a {
+      position: absolute;
+      color: transparent;
+      display: block;
+      background: url("../images/play.png");
+      height: 64px;
+      width: 64px;
+      top: 35%;
+      left: 45%;
+      opacity: 0.9;
+      filter: alpha(opacity=90); /* For IE8 and earlier */
+    }
+  }
+}
+
+.view-display-id-block_2 .row:nth-child(even) {
+  .testimonial-sidebar-row {
+    .top-box {
+      background-color: #ff9f00;
+      &:after {
+        border-top: 20px solid #ff9f00;
+      }
+    }
+  }
+}
+
+/* End of testimonial sidebar */
