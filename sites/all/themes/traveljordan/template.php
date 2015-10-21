@@ -12,7 +12,6 @@
  */
 
 function traveljordan_form_alter(&$form, &$form_state, $form_id) {
-
 	switch ($form_id) {
 		case 'simplenews_block_form_1':
         $form['mail']['#attributes']['placeholder'] = t('Enter your email here');
@@ -21,11 +20,26 @@ function traveljordan_form_alter(&$form, &$form_state, $form_id) {
         $form['#theme_wrappers'] = array('simplenews_form_wrapper');
 			break;
     case 'webform_client_form_146':
-      
+
     break;
     case 'lang_dropdown_form':
       //Add #title property to the language switcher
       //$form['lang_dropdown_select']['#title'] = t('Language');
+    break;
+    case "mailchimp_signup_subscribe_block_subscription_newsletter_form":
+    $form['input_group'] = array(
+      '#type' => 'container',
+      '#attributes' => array(
+        'class' => array('input-group input-group-lg'),
+      )
+    );
+    $form['input_group']['mergevars'] = $form['mergevars'];
+    $form['input_group']['mergevars']['EMAIL']['#title'] = "";
+    $form['input_group']['actions'] = $form['actions'];
+    $form['input_group']['actions']['#prefix'] = '<span class="input-group-btn">';
+    $form['input_group']['actions']['#suffix'] = '</span>';
+    unset($form['mergevars']);
+    unset($form['actions']);
     break;
   }
 }
@@ -37,17 +51,17 @@ function traveljordan_form_alter(&$form, &$form_state, $form_id) {
 
 function traveljordan_preprocess_html(&$variables) {
   //Add the required google fonts
-  drupal_add_css('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic', 
+  drupal_add_css('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic',
     array('type' => 'external'));
 
   //bootstrap RTL support
-  // drupal_add_css("http://cdn.rawgit.com/morteza/bootstrap-rtl/master/dist/cdnjs/3.3.1/css/bootstrap-rtl.min.css", 
+  // drupal_add_css("http://cdn.rawgit.com/morteza/bootstrap-rtl/master/dist/cdnjs/3.3.1/css/bootstrap-rtl.min.css",
   //   array('type' => 'external'));
 }
 
 
 
-/** 
+/**
  * Implement hook_theme
  */
 
@@ -152,7 +166,7 @@ function traveljordan_preprocess_node(&$variables) {
 
   //Preprocess fields for the tour node
   $node = $variables['node'];
-  
+
   if ($node->type == 'tours') {
     $link_prefix = '<i class="fa fa-eye"></i>';
     $variables['content']['link_read_more'][0] = array(

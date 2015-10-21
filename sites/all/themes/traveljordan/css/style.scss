@@ -588,15 +588,14 @@ Sliders
  * Footer Section
  */
 
-#block-simplenews-1 {
-  background: #12a9cd;
-}
 
 #block-views-testimonials-block-1 {
   margin-bottom: 60px;
 }
 
-#block-simplenews-1 {
+#block-simplenews-1,
+#block-mailchimp-signup-subscription-newsletter {
+  background: #12a9cd;
   .block-title {
     font-family: Lato;
     font-size: 28px;
@@ -608,9 +607,26 @@ Sliders
   .subscribe-form {
     padding-top: 25px;
   }
+  .form-required {
+    display: none;
+  }
   button {
     background: none repeat scroll 0 0 #ff9f00;
     color: #fff;
+  }
+  .form-group {
+    margin-bottom: 0;
+    .mailchimp-newsletter-mergefields,
+    .input-group-btn {
+      width: auto;
+      float: left;
+    }
+    .mailchimp-newsletter-mergefields {
+      .form-type-textfield {
+        display: flex;
+      }
+      width: 69%;
+    }
   }
 }
 
@@ -621,7 +637,7 @@ Sliders
   padding: 10px 16px;
 }
 
-#edit-mail {
+#edit-mail, #edit-mergevars-email {
   border-radius: 6px;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
