@@ -1279,4 +1279,24 @@ label.error {
   }
 }
 
+.node-type-tours {
+  .node-tours {
+    img {
+      padding: 2%;
+    }
+  }
+  .add-review-link {
+    padding: 2% 0;
+  }
+  .field-name-reviews {
+    background: #f2f2f2;
+    .block-title {
+      margin-left: 1%;
+    }
+    .even {
+      background: none;
+    }
+  }
+}
+
 /* End of testimonial sidebar */

@@ -1256,6 +1256,22 @@ label.error {
   .view-display-id-block_2 .row:nth-child(even) .testimonial-sidebar-row .top-box:after {
     border-top: 20px solid #ff9f00; }
 
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031284}}
+.node-type-tours .node-tours img {
+  padding: 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031288}}
+.node-type-tours .add-review-link {
+  padding: 2% 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031291}}
+.node-type-tours .field-name-reviews {
+  background: #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031293}}
+  .node-type-tours .field-name-reviews .block-title {
+    margin-left: 1%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031296}}
+  .node-type-tours .field-name-reviews .even {
+    background: none; }
+
 /* End of testimonial sidebar */
 
 /*# sourceMappingURL=style.css.map */
