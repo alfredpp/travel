@@ -1120,6 +1120,7 @@ label.error {
 
 #main-section {
   margin: 35px 0;
+  padding: 0px;
 }
 
 #block-lang-dropdown-language {
@@ -1149,9 +1150,168 @@ label.error {
 
 /** MB Changes Starts Here **/
 
-#block-system-main .container .top-header {
-	text-align: center;
-	margin-bottom: 40px;
+
+#block-system-main {
+
+	.social-icons-top {
+		float: left;
+		p {
+			float: left;
+		}
+	}
+	
+	.container_main_new {
+		margin-bottom: 5%;
+	}
+	
+	.top-header::after {
+		border-bottom: 5px solid #12a9cd;
+		content: "";
+		display: block;
+		height: 1px;
+		margin: 0 auto;
+		padding-top: 15px;
+		width: 123px;
+	}
+	
+	.client {
+		/** background: rgba(19, 169, 206, 0.09); **/
+		background: url(../images/slider_bg.png) no-repeat;
+		color: #fff;
+	}
+	
+	.container {
+	.paragraphs-items-field-about-company-about-layout {
+		
+		float: left;
+		width: 100%;
+		margin-top: 5%;
+		margin-bottom: 5%;
+	
+		.border_box {
+			float: left;
+			width: 43%;
+			border: 3px solid #fff;
+			border-radius: 100px;
+			height: 100px; 
+			margin: 0 28%;
+			.fa {
+				float: left;
+				font-size: 3em;
+				margin-left: 30%;
+				margin-top: -25%;
+				color: #fff;
+			}
+			h3 {
+				float: left;
+				/** margin-left: 27%;
+				margin-top: 15%; **/
+				width: 100%;
+				text-align: center;
+				margin-top: 15px;
+			}
+		}
+		
+		.field-name-field-text {			
+			float: left;
+			width: 100%;
+			text-align: center;
+			margin-top: 10px;			
+			font-size: 15px;			
+		}
+		
+	}
+
+	.social_link_wrapper {
+	
+		h2.block-title::after {
+			border-bottom: 5px solid #12a9cd;
+			content: "";
+			display: block;
+			height: 1px;
+			margin: 0 auto;
+			padding-top: 15px;
+			width: 123px;
+		}
+	
+		h2.block-title {
+			font-size: 30px;
+			text-align: center;
+			font-style: italic;
+			color: #C7C7C7;
+			margin-bottom: 25px;
+		}
+		ul {
+			float: left;
+			width: auto;
+			margin: 0 27%;
+			li {
+				float: left;				
+				text-align: center;
+				margin: 5px;
+				a {
+					.fa {
+						font-size: 2.5em;
+					}
+					span {
+						display: none;
+					}
+				}
+			}
+		}
+	}
+
+	.box-img {
+		h5 {
+			text-align: center;
+			text-transform: uppercase;
+			padding: 33px;
+			border: 1px solid #ccc;
+			font-size: 23px;
+			color: #fff;
+			background: #13A9CE; 
+			span {
+				font-weight: bold;			
+			}
+		}
+		p {
+			color: #8C8C8C;			
+		}
+		
+		.body_about {
+			color: #6D6D6D;
+			margin-top: 20px;
+			font-size: 15px;
+			ul {
+				list-style-type: disc;
+				margin-left: 20px;
+				li {
+					list-style: initial;
+				}				
+			}
+			
+		}
+		
+	}
+	.top-header {
+		text-align: center;
+		margin-bottom: 40px;
+		h2 {
+			text-transform: uppercase;
+			font-weight: bold;
+			span {
+				color: #13A9CE;
+			}
+		}
+		p {
+			font-style: italic;
+			font-size: 16px;
+		}
+	}
 }
+	
+}
+
+ 
 
 /** MB Changes Ends Here **/
