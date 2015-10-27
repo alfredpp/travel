@@ -1,4 +1,4 @@
-body {
+body {  
   margin: 0px;
   padding: 0px;
   font-family: 'Lato';
@@ -1146,3 +1146,12 @@ label.error {
 #block-block-3 {
   float: right;
 }
+
+/** MB Changes Starts Here **/
+
+#block-system-main .container .top-header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+/** MB Changes Ends Here **/

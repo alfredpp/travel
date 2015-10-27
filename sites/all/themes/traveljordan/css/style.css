@@ -917,4 +917,11 @@ label.error {
 #block-block-3 {
   float: right; }
 
+/** MB Changes Starts Here **/
+#block-system-main .container .top-header {
+  text-align: center;
+  margin-bottom: 40px; }
+
+/** MB Changes Ends Here **/
+
 /*# sourceMappingURL=style.css.map */
