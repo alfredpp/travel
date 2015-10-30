@@ -1,11 +1,17 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031}}
+@font-face {
+  font-family: 'FreeStyleScript';
+  src: url("FreestyleScript-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("FreestyleScript-Regular.eot?#iefix") format("embedded-opentype"), url("FreestyleScript-Regular.woff") format("woff"), url("FreestyleScript-Regular.ttf") format("truetype"), url("FreestyleScript-Regular.svg") format("svg");
+  /* Legacy iOS */ }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000311}}
 body {
   margin: 0px;
   padding: 0px;
   font-family: 'Lato';
   background: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000038}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000318}}
 h1, h2, h3, h4, h5, h6, p, ol, ul, li, img, hr {
   border: none;
   list-style: none;
@@ -14,7 +20,7 @@ h1, h2, h3, h4, h5, h6, p, ol, ul, li, img, hr {
   padding: 0px;
   font-weight: normal; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000327}}
 a {
   color: #0088CC;
   text-decoration: none;
@@ -22,15 +28,15 @@ a {
   -webkit-transition: .25s ease color;
   transition: .25s ease color;
   cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000334}}
   a:hover, a:active, a:focus {
     outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000339}}
 button:focus, input:focus, button:focus {
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000333}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000343}}
 img {
   width: auto;
   height: auto;
@@ -42,15 +48,15 @@ img {
 /**
  * Header
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000356}}
 header#navbar {
   margin-top: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000360}}
 .navbar {
   margin-bottom: -26px !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000364}}
 .navbar-brand, .brand-name {
   color: #000;
   font-size: 22px;
@@ -58,12 +64,12 @@ header#navbar {
   float: none;
   text-transform: uppercase; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000372}}
 .navbar-brand span, .brand-name span {
   color: #12a9cd;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000377}}
 .caret {
   color: #f59d03;
   font-size: 15px;
@@ -71,72 +77,72 @@ header#navbar {
   border: 0 none;
   display: inline;
   vertical-align: top; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000378}}
   .caret:after {
     content: "+"; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000389}}
 .navbar-default {
   background: none repeat scroll 0 0 #2d343e;
   border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000394}}
 .navbar.container.navbar-default, .navbar-collapse {
   padding: 0 !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000399}}
 .navbar-default .navbar-nav > .active > a {
   background-color: #12a9cd;
   color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000392}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003102}}
   .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
     background-color: #12a9cd;
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003108}}
 .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
   background-color: #12a9cd;
   color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003103}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003113}}
 .navbar-default .navbar-nav > .open > a {
   background-color: #12a9cd;
   color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003106}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003116}}
   .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
     background-color: #12a9cd;
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003121}}
 .navbar-default .navbar-nav > li > a {
   color: #fff;
   font-weight: bold; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003117}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003127}}
 .dropdown-menu {
   background-color: #12a9cd;
   border: none;
   box-shadow: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003131}}
   .dropdown-menu > li > a {
     color: #fff;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003124}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003134}}
     .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
       background-color: #ff9f00;
       color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003131}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003141}}
 .right_num {
   width: 25%;
   float: right;
   background: #12a9cd;
   color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003136}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003146}}
   .right_num h2 {
     font-size: 18px;
     font-weight: 600;
     margin: 14px 15px 14px 0;
     text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003154}}
 .my_nav {
   background: none repeat scroll 0 0 #2d343e;
   float: left;
@@ -147,95 +153,95 @@ header#navbar {
   text-transform: uppercase; }
 
 /* Language dropdown */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003166}}
 #lang_dropdown_form_language .language-icon {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003162}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003172}}
 .form-item-lang-dropdown-select {
   display: block; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003166}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003176}}
 #lang-dropdown-select-language {
   height: auto !important; }
 
 /* Icons
 */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003173}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003183}}
 .block-menu-menu-social-links li {
   width: 32px;
   padding: 8px 12px;
   border-radius: 23px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003177}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003187}}
   .block-menu-menu-social-links li.facebook {
     background-color: #3b5998; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003182}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003192}}
 li.menu-9932 {
   background-color: #3b5998; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003186}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003196}}
 .block-menu-menu-social-links li.twitter, li.menu-9933 {
   background-color: #40b2e4; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003190}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003200}}
 .block-menu-menu-social-links li.google, li.menu-9934 {
   background-color: #f63e28; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003196}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003206}}
 .block-menu-menu-social-links li.youtube {
   background-color: #ff3132; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003199}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003209}}
 .block-menu-menu-social-links li.pinterest {
   background-color: #cb2027; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003202}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003212}}
 .block-menu-menu-social-links li a {
   color: #fff;
   font-size: 14px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003207}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003217}}
 .block-menu-menu-social-links span.title {
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003212}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003222}}
 .social-links {
   margin-left: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003214}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003224}}
   .social-links li {
     display: block;
     float: left;
     margin-right: 10px;
     text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003222}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003232}}
 #block-menu-menu-social-links {
   float: left;
   margin: 0px;
   margin-top: -5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003226}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003236}}
   #block-menu-menu-social-links ul {
     margin-top: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003228}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003238}}
     #block-menu-menu-social-links ul li {
       float: left;
       margin: 0 2px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003231}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003241}}
       #block-menu-menu-social-links ul li a:hover {
         cursor: hand; }
 
 /**
 Sliders
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003242}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003252}}
 .rslides {
   margin: 0 auto; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003246}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003256}}
 .rslides_container {
   position: relative;
   float: left;
   width: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003252}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003262}}
 .centered-btns_nav {
   z-index: 3;
   position: absolute;
@@ -250,16 +256,16 @@ Sliders
   width: 38px;
   background: transparent url("../imagesx/themes.gif") no-repeat left top;
   margin-top: -45px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003266}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003276}}
   .centered-btns_nav:active {
     opacity: 1.0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003279}}
   .centered-btns_nav.next {
     left: auto;
     background-position: right top;
     right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003286}}
 .transparent-btns_nav {
   z-index: 3;
   position: absolute;
@@ -275,12 +281,12 @@ Sliders
   text-indent: -9999px;
   overflow: hidden;
   height: 91%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003301}}
   .transparent-btns_nav.next {
     left: auto;
     right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003307}}
 .large-btns_nav {
   z-index: 3;
   position: absolute;
@@ -293,26 +299,26 @@ Sliders
   left: 0;
   background: #000 url("../images/themes.gif") no-repeat left 50%;
   width: 38px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003309}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003319}}
   .large-btns_nav:active {
     opacity: 1.0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003312}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003322}}
   .large-btns_nav.next {
     left: auto;
     background-position: right 50%;
     right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003329}}
 .centered-btns_nav:focus, .transparent-btns_nav:focus, .large-btns_nav:focus {
   outline: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003323}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003333}}
 .centered-btns_tabs, .transparent-btns_tabs, .large-btns_tabs {
   margin-top: 10px;
   text-align: center;
   display: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003339}}
 .centered-btns_tabs li, .transparent-btns_tabs li, .large-btns_tabs li {
   display: inline;
   float: none;
@@ -320,7 +326,7 @@ Sliders
   *float: left;
   margin-right: 5px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003347}}
 .centered-btns_tabs a, .transparent-btns_tabs a, .large-btns_tabs a {
   text-indent: -9999px;
   overflow: hidden;
@@ -338,7 +344,7 @@ Sliders
   width: 9px;
   height: 9px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003365}}
 .centered-btns_here a, .transparent-btns_here a, .large-btns_here a {
   background: #222;
   background: rgba(0, 0, 0, 0.8); }
@@ -346,39 +352,40 @@ Sliders
 /**
  * Mid Container
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003364}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003374}}
 .mid_container {
   background: url("../images/bg.jpg") no-repeat scroll 0 0/cover transparent;
   padding-bottom: 0;
   margin-top: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003378}}
   .mid_container h2, .mid_container .view-header {
     text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003371}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003381}}
   .mid_container h2 {
     font-size: 36px;
     font-family: 'Lato';
     font-weight: bold;
     color: #fff;
     margin: 40px 0 20px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003388}}
   .mid_container .view-header {
     font-family: 'Lato';
     font-size: 14px;
     color: #fff;
     margin-bottom: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003396}}
 .view-header::after {
-  border-bottom: 5px solid #fff;
+  border-bottom: 5px solid #12a9cd;
   content: "";
   display: block;
   height: 1px;
   margin: 0 auto;
-  padding-top: 30px;
-  width: 123px; }
+  padding-top: 10px;
+  width: 123px;
+  margin-bottom: 5%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003396}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003407}}
 .blog-group-content h3::after {
   border-bottom: 5px solid #fff;
   content: "";
@@ -392,23 +399,23 @@ Sliders
   padding: 7px 0;
   width: 20%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003421}}
 .list3 {
   margin: 33px 0;
   color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003415}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003426}}
 .left-block {
   text-align: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003417}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003428}}
   .left-block li {
     padding: 0 0 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003422}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003433}}
 .right-block li {
   padding: 0 0 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003426}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003437}}
 .left-block i, .right-block i {
   border: 3px solid #fff;
   border-radius: 50%;
@@ -420,17 +427,17 @@ Sliders
   text-align: center;
   width: 65px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003438}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003449}}
 .left-block i {
   margin-left: 30px;
   float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003443}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003454}}
 .right-block i {
   margin-right: 30px;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003448}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003459}}
 .left-block h4, .right-block h4 {
   color: #fff;
   font-family: "Lato";
@@ -439,22 +446,22 @@ Sliders
 /**
  * Homepage tours
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003459}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003470}}
 .package:hover .package_hover {
   display: block;
   transition: all 0.5s; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003463}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003474}}
 .package:hover .tour-box-details {
   background: #12a9cd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003469}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003480}}
 #block-views-homepage-block-3 .block-title {
   font-family: "Lato";
   font-size: 36px;
   font-weight: bold;
   margin: 40px 0 20px;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003476}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003487}}
 #block-views-homepage-block-3 .view-header {
   color: #2d343e;
   font-family: "Lato";
@@ -462,20 +469,20 @@ Sliders
   line-height: 25px;
   margin-bottom: 30px;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003483}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003494}}
   #block-views-homepage-block-3 .view-header::after {
     border-bottom: 5px solid #12a9cd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003489}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003500}}
 #block-views-testimonials-block-1 .view-header::after {
   border-bottom: 5px solid #12a9cd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003493}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003504}}
 .package_hover i {
   display: block;
   margin: 5px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003498}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003509}}
 .my_hover {
   background: rgba(0, 0, 0, 0.5);
   height: 100%;
@@ -483,20 +490,20 @@ Sliders
   margin-right: 30px;
   padding-top: 40px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003507}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003518}}
 .package_hover h2 {
   font-size: 30px;
   font-weight: bold;
   padding: 10px;
   text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003513}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003524}}
 .package_hover p {
   font-family: Lato;
   font-size: 16px;
   line-height: 25px;
   padding: 20px;
   font-style: italic; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003520}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003531}}
 .package_hover a {
   border: 1px solid #fff;
   color: #fff;
@@ -509,14 +516,14 @@ Sliders
   width: 80%;
   text-decoration: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003534}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003545}}
 .call-to-action .package_hover {
   background: none repeat scroll 0 0 #ff9f00;
   padding: 20px 0;
   text-align: center;
   color: #fff; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003542}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003553}}
 .package:hover .tour-box-details::before {
   content: "\f0d8";
   font-size: 28px;
@@ -524,7 +531,7 @@ Sliders
   position: absolute;
   top: -25px;
   color: #12a9cd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003550}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003561}}
 .package .package_hover {
   display: none;
   position: absolute;
@@ -535,11 +542,11 @@ Sliders
   width: 100%;
   height: 100%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003562}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003573}}
 #block-views-homepage-block-3 .views-row .call-to-action:last-child .package_hover {
   background: none repeat scroll 0 0 #373e46; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003566}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003577}}
 .tour-box-details {
   background: none repeat scroll 0 0 #2d343e;
   bottom: 0;
@@ -549,29 +556,29 @@ Sliders
   position: relative;
   text-align: center;
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003575}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003586}}
   .tour-box-details h2 {
     font-size: 20px;
     font-weight: bold;
     margin: 5px;
     padding: 0;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003582}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003593}}
   .tour-box-details p {
     font-style: italic; }
 
 /***
  * Footer Section
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003592}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003603}}
 #block-views-testimonials-block-1 {
   margin-bottom: 60px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003596}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003607}}
 #block-simplenews-1,
 #block-mailchimp-signup-subscription-newsletter {
   background: #12a9cd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003599}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003610}}
   #block-simplenews-1 .block-title,
   #block-mailchimp-signup-subscription-newsletter .block-title {
     font-family: Lato;
@@ -580,58 +587,58 @@ Sliders
     padding: 30px 0px;
     font-weight: bold;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003607}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003618}}
   #block-simplenews-1 .subscribe-form,
   #block-mailchimp-signup-subscription-newsletter .subscribe-form {
     padding-top: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003610}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003621}}
   #block-simplenews-1 .form-required,
   #block-mailchimp-signup-subscription-newsletter .form-required {
     display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003613}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003624}}
   #block-simplenews-1 button,
   #block-mailchimp-signup-subscription-newsletter button {
     background: none repeat scroll 0 0 #ff9f00;
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003617}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003628}}
   #block-simplenews-1 .form-group,
   #block-mailchimp-signup-subscription-newsletter .form-group {
     margin-bottom: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003619}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003630}}
     #block-simplenews-1 .form-group .mailchimp-newsletter-mergefields,
     #block-simplenews-1 .form-group .input-group-btn,
     #block-mailchimp-signup-subscription-newsletter .form-group .mailchimp-newsletter-mergefields,
     #block-mailchimp-signup-subscription-newsletter .form-group .input-group-btn {
       width: auto;
       float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003624}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003635}}
     #block-simplenews-1 .form-group .mailchimp-newsletter-mergefields,
     #block-mailchimp-signup-subscription-newsletter .form-group .mailchimp-newsletter-mergefields {
       width: 69%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003625}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003636}}
       #block-simplenews-1 .form-group .mailchimp-newsletter-mergefields .form-type-textfield,
       #block-mailchimp-signup-subscription-newsletter .form-group .mailchimp-newsletter-mergefields .form-type-textfield {
         display: flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003633}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003644}}
 .input-group-lg .form-control {
   font-size: 18px;
   height: 46px;
   line-height: 1.33333;
   padding: 10px 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003640}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003651}}
 #edit-mail, #edit-mergevars-email {
   border-radius: 6px;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003646}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003657}}
 footer {
   background: #2d343e;
   padding-bottom: 50px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003651}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003662}}
 .region-footer h2, .box_1 h2 {
   font-family: Lato;
   font-weight: bold;
@@ -639,10 +646,10 @@ footer {
   padding-top: 35px;
   font-size: 18px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003660}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003671}}
 .region-footer ul {
   margin-top: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003663}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003674}}
 .region-footer li a {
   color: #fff;
   text-decoration: none;
@@ -650,59 +657,59 @@ footer {
   font-size: 15px;
   line-height: 28px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003672}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003683}}
 .box_1 ul.contact_info {
   margin: 20px 0px 0px 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003674}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003685}}
   .box_1 ul.contact_info li {
     margin-bottom: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003676}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003687}}
     .box_1 ul.contact_info li div {
       display: inline;
       padding-left: 10px;
       color: #ffffff;
       text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003682}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003693}}
     .box_1 ul.contact_info li i {
       color: #cecece;
       font-size: 16px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003689}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003700}}
 .contact_info p {
   display: inline-flex; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003693}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003704}}
 li.env {
   margin: 20px 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003697}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003708}}
 .footer-bottom {
   padding: 25px 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003701}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003712}}
 #block-menu-menu-footer-links ul li {
   display: inline; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003703}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003714}}
   #block-menu-menu-footer-links ul li:after {
     content: "-";
     padding: 0 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003707}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003718}}
   #block-menu-menu-footer-links ul li:last-child:after {
     content: "";
     padding-right: 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003713}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003724}}
 .sec_1 p {
   font-size: 13px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003715}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003726}}
   .sec_1 p span {
     color: #12a9cd; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003720}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003731}}
 .banner {
   background: url(../images/slider_bg.png) no-repeat; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003724}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003735}}
 .my_title {
   color: #fff;
   display: block;
@@ -711,66 +718,66 @@ li.env {
   text-transform: uppercase;
   border: none; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003733}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003744}}
 .nav_right {
   padding-top: 15%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003737}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003748}}
 .breadcrumb {
   background-color: transparent; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003739}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003750}}
   .breadcrumb .first::before {
     color: white;
     content: "\f015";
     margin-right: 10px;
     font-family: "fontawesome";
     font-size: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003746}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003757}}
   .breadcrumb li {
     float: left;
     padding: 10px 10px 10px 17px;
     background: rgba(42, 42, 42, 0.55); }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003751}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003762}}
   .breadcrumb .active {
     color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003754}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003765}}
   .breadcrumb > li + li::before {
     content: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003757}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003768}}
   .breadcrumb li a {
     color: #fff;
     text-decoration: none;
     font-size: 14px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003761}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003772}}
     .breadcrumb li a i {
       font-size: 18px;
       padding-right: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003765}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003776}}
     .breadcrumb li a:hover {
       color: #e88b02; }
 
 /* Contact Us */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003773}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003784}}
 .content-box {
   background: none repeat scroll 0 0 #f2f2f2;
   padding: 25px 25px 20px 25px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003778}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003789}}
 body.not-front #footer-top {
   margin: 0 !important; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003782}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003793}}
 .footer-map {
   margin-bottom: -5px;
   margin-top: 60px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003787}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003798}}
 .form-control {
   border: medium none;
   border-radius: 0;
   height: 45px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003793}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003804}}
 label {
   display: inline-block !important;
   font-weight: normal;
@@ -779,7 +786,7 @@ label {
   margin-left: 2px;
   color: #8f8f8f; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003802}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003813}}
 .btn-primary.form-submit {
   background: none repeat scroll 0 0 #12a9cd;
   border: medium none;
@@ -790,7 +797,7 @@ label {
   margin-bottom: 32px;
   padding: 16px 80px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003814}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003825}}
 .content-box h2::after {
   border-bottom: 4px solid #000;
   content: "";
@@ -799,67 +806,67 @@ label {
   padding: 8px 0;
   text-align: right;
   width: 10%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003823}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003834}}
 .content-box p {
   color: #8f8f8f;
   font-size: 14px;
   line-height: 18px;
   margin-top: 20px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003831}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003842}}
 label.error {
   color: red;
   padding: 2px 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003836}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003847}}
 .request {
   padding-right: 0px;
   margin-top: 38px;
   color: #fff;
   text-align: center; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003843}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003854}}
 .request_new {
   background: #ff9f00; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003845}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003856}}
   .request_new i {
     font-size: 45px;
     text-align: center;
     padding: 77px 0px 10px 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003850}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003861}}
   .request_new h2 {
     text-transform: uppercase;
     font-weight: bold;
     padding-bottom: 54px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003857}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003868}}
 .new-right {
   margin-top: 30px;
   background: #2d343e; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003860}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003871}}
   .new-right h2 {
     text-align: left;
     font-size: 24px;
     padding: 20px 0px 20px 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003865}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003876}}
   .new-right h5 {
     font-size: 26px;
     text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003868}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003879}}
     .new-right h5 span {
       font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003872}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003883}}
   .new-right ul li {
     text-align: left;
     padding: 20px 15px 0px 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003875}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003886}}
     .new-right ul li a {
       color: #fff;
       text-decoration: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003878}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003889}}
       .new-right ul li a:hover {
         color: #12a9cd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003882}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003893}}
     .new-right ul li i {
       width: 30px;
       height: 30px;
@@ -870,27 +877,27 @@ label.error {
       padding-top: 7px;
       background: #fff;
       color: #000; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003893}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003904}}
     .new-right ul li h4 {
       display: inline;
       padding-left: 8px;
       font-size: 16px;
       font-weight: 800; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003899}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003910}}
     .new-right ul li p {
       display: block;
       font-size: 14px;
       line-height: 20px;
       padding: 0px 45px 0px 38px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003908}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003919}}
 .social_inner {
   text-align: left;
   padding-left: 20px;
   padding-top: 20px;
   padding-bottom: 30px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003915}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003926}}
 .new-right .social_inner i {
   width: 25px;
   height: 25px;
@@ -902,21 +909,21 @@ label.error {
   background: #fff;
   color: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003928}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003939}}
 .social_inner i:hover {
   background: #ff9f00;
   color: #fff;
   border-color: #ff9f00; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003933}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003944}}
 .social_inner a {
   padding-right: 10px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003936}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003947}}
 .social_inner li {
   background-color: transparent !important;
   padding: 0 !important;
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003943}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003954}}
 .borer_white {
   background: none repeat scroll 0 0 #fff;
   height: 5px;
@@ -927,7 +934,7 @@ label.error {
 /**
  * Testimonials
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003956}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003967}}
 #block-views-testimonials-block-1 h2 {
   color: #2d343e;
   font-family: "Lato";
@@ -936,36 +943,36 @@ label.error {
   margin: 30px 0 0 20px;
   text-align: center;
   text-transform: uppercase; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003965}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003976}}
 #block-views-testimonials-block-1 .view-content {
   margin-top: 30px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003968}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003979}}
 #block-views-testimonials-block-1 .view-header::after {
   padding-top: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003973}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003984}}
 .testimonial-top {
   background: none repeat scroll 0 0 #f2f2f2;
   padding: 35px 18px;
   position: relative;
   min-height: 215px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003980}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003991}}
 .testimonial-bottom {
   margin-left: 58px;
   margin-top: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003983}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003994}}
   .testimonial-bottom img {
     border-radius: 50%;
     border: 1px solid #ccc; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003987}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003998}}
   .testimonial-bottom h4 {
     padding: 10px 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003990}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031001}}
   .testimonial-bottom .fivestar-average-stars {
     padding-top: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\00003995}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031006}}
 .testimonial-top::after {
   background: url("../images/ic-2.png") no-repeat scroll 0 0 transparent;
   bottom: -14px;
@@ -976,21 +983,21 @@ label.error {
   width: 18px;
   z-index: 999; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031006}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031017}}
 .testmonial-boxes {
   background: none repeat scroll 0 0 #f2f2f2;
   margin-bottom: 20px;
   padding: 0;
   position: relative; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031013}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031024}}
 .user-details {
   background: none repeat scroll 0 0 #12a9cd;
   position: absolute;
   top: 0;
   bottom: 0;
   margin: 0 auto; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031014}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031025}}
   .user-details::after {
     color: #12a9cd;
     content: "\f0da";
@@ -1002,29 +1009,29 @@ label.error {
     position: absolute;
     z-index: 1;
     top: 42%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031042}}
   .user-details h3 {
     color: #fff;
     font-size: 16px;
     font-weight: 600; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031036}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031047}}
   .user-details img {
     border: 1px solid #ccc;
     border-radius: 50%; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031042}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031053}}
 .views-row-even .user-details {
   background: none repeat scroll 0 0 #FF9F00; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031044}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031055}}
   .views-row-even .user-details::after {
     color: #FF9F00; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031049}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031060}}
 .testimonial-text {
   background: none repeat scroll 0 0 #f2f2f2;
   padding-left: 18px;
   margin-left: 25%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031053}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031064}}
   .testimonial-text .field-name-body {
     color: #2d343e;
     font-size: 14px;
@@ -1032,48 +1039,48 @@ label.error {
     line-height: 24px;
     padding: 25px 0 0; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031062}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031073}}
 .footer-bottom {
   font-size: 13px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031064}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031075}}
   .footer-bottom ul {
     float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031069}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031080}}
 .brand-name {
   float: left; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031073}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031084}}
 .view-display-id-block_3 {
   overflow: hidden; }
 
 /**
  * Blog pages
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031081}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031092}}
 .blog-group-content {
   border-bottom: 1px solid #ccc;
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
   padding: 20px;
   min-height: 235px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031087}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031098}}
   .blog-group-content .field-name-body p {
     color: #8f8f8f;
     font-size: 14px;
     line-height: 22px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031094}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031105}}
 .blog-tesaser-box {
   margin-top: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031096}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031107}}
   .blog-tesaser-box h3 {
     font-size: 18px;
     color: #2d343e;
     font-weight: 600;
     margin-top: 10px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031104}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031115}}
 .blog-group-content a {
   background: none repeat scroll 0 0 #ff9f00;
   border: 0 none;
@@ -1084,13 +1091,13 @@ label.error {
   display: inline-block; }
 
 /* Carousel */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031116}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031127}}
 .carousel-control {
   width: 3%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031129}}
   .carousel-control.right, .carousel-control.left {
     background-image: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031121}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031132}}
   .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
     border: 1px solid #ccc;
     font-size: 40px;
@@ -1098,66 +1105,66 @@ label.error {
     margin-top: -15px;
     opacity: 1;
     width: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031129}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031140}}
   .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next {
     margin-right: -21px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031132}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031143}}
   .carousel-control .glyphicon-chevron-left, .carousel-control .icon-prev {
     margin-left: -21px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031137}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031148}}
 #main-section {
   margin: 35px 0;
   padding: 0px; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031153}}
 #block-lang-dropdown-language {
   padding-top: 5px;
   width: 230px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031144}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031155}}
   #block-lang-dropdown-language:before {
     content: 'Language: ';
     float: left;
     color: #8F8F8F; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031150}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031161}}
   #block-lang-dropdown-language form {
     float: right; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031152}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031163}}
     #block-lang-dropdown-language form .dd-select {
       border: none !important;
       background: #fff none repeat scroll 0 0 !important;
       width: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031156}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031167}}
       #block-lang-dropdown-language form .dd-select a {
         padding: 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031158}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031169}}
         #block-lang-dropdown-language form .dd-select a label {
           color: #000; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031163}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031174}}
 #block-block-3 {
   float: right; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031168}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031179}}
 .client-feedback-page .block-title {
   font-family: "Lato";
   font-size: 36px;
   font-weight: bold;
   margin: 40px 0 20px;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031175}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031186}}
 .client-feedback-page .intermediate-text {
   color: #2d343e;
   font-family: "Lato";
   font-size: 12px;
   text-align: center; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031180}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031191}}
   .client-feedback-page .intermediate-text::after {
     border-bottom: 2px solid #12a9cd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031184}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031195}}
 .client-feedback-page .blue {
   color: #12a9cd; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031187}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031198}}
 .client-feedback-page .text {
   color: #2d343e;
   font-family: "Lato";
@@ -1169,16 +1176,16 @@ label.error {
 /**
  * Testimonials sidebar changes
  */
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031201}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031212}}
 .testimonial-sidebar-row {
   margin-bottom: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031203}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031214}}
   .testimonial-sidebar-row .top-box {
     background-color: #12a9cd;
     height: auto;
     position: relative;
     padding: 40px 0 40px 35%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031208}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031219}}
     .testimonial-sidebar-row .top-box:after {
       position: absolute;
       top: 100%;
@@ -1190,10 +1197,10 @@ label.error {
       border-top: 20px solid #12a9cd;
       z-index: 1000;
       content: ""; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031231}}
     .testimonial-sidebar-row .top-box img {
       border-radius: 50%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031223}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031234}}
     .testimonial-sidebar-row .top-box .user-name {
       color: white;
       font-family: "Lato";
@@ -1202,7 +1209,7 @@ label.error {
       margin-top: 10px;
       text-align: center;
       font-size: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031233}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031244}}
   .testimonial-sidebar-row .video {
     position: relative;
     overflow: hidden;
@@ -1223,7 +1230,7 @@ label.error {
     /* Safari 1.x */
     opacity: 0.8;
     /* Good browsers */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031248}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031259}}
     .testimonial-sidebar-row .video img {
       height: 180px;
       transform: scale(2, 2);
@@ -1236,7 +1243,7 @@ label.error {
       /* Chrome, Safari, Opera */
       -ms-transform-origin: 40px 50px 0;
       /* IE 9 */ }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031257}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031268}}
     .testimonial-sidebar-row .video a {
       position: absolute;
       color: transparent;
@@ -1250,41 +1257,241 @@ label.error {
       filter: alpha(opacity=90);
       /* For IE8 and earlier */ }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031274}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031285}}
 .view-display-id-block_2 .row:nth-child(even) .testimonial-sidebar-row .top-box {
   background-color: #ff9f00; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031276}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031287}}
   .view-display-id-block_2 .row:nth-child(even) .testimonial-sidebar-row .top-box:after {
     border-top: 20px solid #ff9f00; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031285}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031296}}
 .node-type-tours .node-tours img {
   padding: 2%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031300}}
 .node-type-tours .add-review-link {
   padding: 2% 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031292}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031303}}
 .node-type-tours .field-name-reviews {
   background: #f2f2f2; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031294}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031305}}
   .node-type-tours .field-name-reviews .block-title {
     margin-left: 1%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031297}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031308}}
   .node-type-tours .field-name-reviews .even {
     background: none; }
 
 /* End of testimonial sidebar */
 /** MB Changes Starts Here **/
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031310}}
-#block-system-main .social-icons-top {
-  float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031312}}
-  #block-system-main .social-icons-top p {
-    float: left; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031317}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031318}}
+#block-block-3 {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031323}}
+.view.view-places-to-visit {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031328}}
+  .view.view-places-to-visit .view-header h2 {
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 36px;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031335}}
+    .view.view-places-to-visit .view-header h2 span {
+      color: #12a9cd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031340}}
+  .view.view-places-to-visit .view-header .header_title {
+    color: #929292;
+    font-family: FreestyleScript;
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031348}}
+  .view.view-places-to-visit .view-header .header_main_title {
+    color: #929292;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031357}}
+  .view.view-places-to-visit .views-row {
+    height: 200px;
+    margin-bottom: 35px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031360}}
+    .view.view-places-to-visit .views-row .views-field-title {
+      position: absolute;
+      bottom: 22px;
+      z-index: 99999;
+      background: #fff;
+      left: 0px;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031367}}
+      .view.view-places-to-visit .views-row .views-field-title a {
+        color: #2d343e;
+        line-height: 27px;
+        font-size: 18px;
+        font-weight: 900;
+        text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031375}}
+    .view.view-places-to-visit .views-row .views-field-body {
+      position: absolute;
+      z-index: 999999;
+      bottom: 0px;
+      width: 100%;
+      left: 0px;
+      background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031382}}
+      .view.view-places-to-visit .views-row .views-field-body p {
+        color: #12a9cd;
+        line-height: 27px;
+        font-size: 14px;
+        font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031393}}
+#my-section-container {
+  margin-top: 5%;
+  margin-bottom: 3%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031400}}
+  #my-section-container .block-block .search_block:hover .search_icon {
+    padding: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031402}}
+    #my-section-container .block-block .search_block:hover .search_icon .fa {
+      padding: 16px;
+      border-radius: 30px;
+      background: #fff;
+      color: #12a9cd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031409}}
+  #my-section-container .block-block .search_block:hover .search_container {
+    background: #12a9cd;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031412}}
+    #my-section-container .block-block .search_block:hover .search_container .search_text {
+      color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031419}}
+  #my-section-container .block-block h2.block-title {
+    text-align: center;
+    font-weight: 900;
+    line-height: 36px;
+    font-size: 24px;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031425}}
+    #my-section-container .block-block h2.block-title span {
+      color: #12a9cd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031429}}
+  #my-section-container .block-block .my_service_title_wrapper {
+    text-align: center;
+    font-family: FreestyleScript;
+    color: #929292;
+    font-weight: 400;
+    /* line-height: 36px; */
+    font-size: 24px;
+    margin-bottom: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031439}}
+  #my-section-container .block-block .search_icon {
+    background-color: #12a9cd;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031446}}
+    #my-section-container .block-block .search_icon .fa {
+      font-size: 2em;
+      padding: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031459}}
+  #my-section-container .block-block .search_container {
+    background-color: #f2f2f2;
+    padding: 25px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031463}}
+    #my-section-container .block-block .search_container .search_text {
+      padding-top: 15px;
+      color: #8f8f8f;
+      font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031470}}
+  #my-section-container .block-block .my_service_title_wrapper::after {
+    border-bottom: 5px solid #12a9cd;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 123px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031483}}
+.view-blog.view-display-id-block_2 {
+  margin-bottom: 30px;
+  height: 185px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031486}}
+  .view-blog.view-display-id-block_2 .view-content {
+    height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031488}}
+    .view-blog.view-display-id-block_2 .view-content #views-bootstrap-carousel-1 {
+      height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031491}}
+      .view-blog.view-display-id-block_2 .view-content #views-bootstrap-carousel-1 .views-field-title {
+        position: absolute;
+        top: 0px;
+        color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031497}}
+      .view-blog.view-display-id-block_2 .view-content #views-bootstrap-carousel-1 .views-field-field-category {
+        position: absolute;
+        top: 0px;
+        background: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031504}}
+      .view-blog.view-display-id-block_2 .view-content #views-bootstrap-carousel-1 .carousel-control .icon-prev {
+        margin-top: -35px;
+        margin-left: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031508}}
+      .view-blog.view-display-id-block_2 .view-content #views-bootstrap-carousel-1 .carousel-control .icon-next {
+        margin-top: -35px;
+        margin-right: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031518}}
+#block-system-main-menu {
+  background-color: #2d343e;
+  color: #fff;
+  padding: 10px 7%;
+  margin-bottom: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031524}}
+  #block-system-main-menu h2.block-title {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031530}}
+  #block-system-main-menu h2.block-title::after {
+    border-bottom: 5px solid #fff;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 0px;
+    padding-top: 0px;
+    width: 123px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031540}}
+  #block-system-main-menu ul {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031543}}
+    #block-system-main-menu ul li {
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 32px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031548}}
+      #block-system-main-menu ul li a {
+        color: #fff;
+        background-image: url(../images/menu_arrow.png);
+        background-repeat: no-repeat;
+        padding-left: 15px;
+        background-position-y: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031555}}
+        #block-system-main-menu ul li a span.caret {
+          display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031567}}
+#block-system-main .tour_section {
+  margin-top: 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031571}}
 #block-system-main .container_main_new {
   margin-bottom: 5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031321}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031575}}
 #block-system-main .top-header::after {
   border-bottom: 5px solid #12a9cd;
   content: "";
@@ -1293,18 +1500,82 @@ label.error {
   margin: 0 auto;
   padding-top: 15px;
   width: 123px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031331}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031585}}
 #block-system-main .client {
-  /** background: rgba(19, 169, 206, 0.09); **/
-  background: url(../images/slider_bg.png) no-repeat;
-  color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031338}}
+  /** background-color: rgba(18, 169, 205, 0.62); **/
+  background-image: url(../images/agency.png);
+  color: #fff;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 0 0 1000px rgba(18, 169, 205, 0.62); }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031597}}
+#block-system-main .container .tour_body .field-name-body h1 {
+  line-height: 48px;
+  font-size: 48px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031601}}
+#block-system-main .container .tour_body .field-name-body h2 {
+  font-size: 34px;
+  line-height: 48px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031605}}
+#block-system-main .container .tour_body .field-name-body h4 {
+  font-size: 18px;
+  font-weight: 900;
+  line-height: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031610}}
+#block-system-main .container .tour_body .field-name-body p {
+  font-size: 14px;
+  color: #3c3c3c;
+  line-height: 23px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031618}}
+#block-system-main .container .tour_body .field-name-field-image.field-type-image {
+  margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031624}}
+#block-system-main .container .tour_webform {
+  background-color: #2d343e; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031628}}
+  #block-system-main .container .tour_webform .block-webform h2.block-title {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 700;
+    line-height: 48px;
+    margin-top: 4%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031638}}
+  #block-system-main .container .tour_webform .block-webform form .webform-component-markup {
+    color: red;
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+    margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031646}}
+  #block-system-main .container .tour_webform .block-webform form .webform-submit {
+    background-color: #ff9f00;
+    margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031653}}
+  #block-system-main .container .tour_webform .block-webform form #webform-component-arrival-date .form-item-submitted-arrival-date-month,
+  #block-system-main .container .tour_webform .block-webform form #webform-component-arrival-date .form-item-submitted-arrival-date-day,
+  #block-system-main .container .tour_webform .block-webform form #webform-component-arrival-date .form-item-submitted-arrival-date-year {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031659}}
+  #block-system-main .container .tour_webform .block-webform form #webform-component-arrival-date #edit-submitted-arrival-date {
+    padding-left: 7%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031663}}
+  #block-system-main .container .tour_webform .block-webform form #webform-component-arrival-date .add-on.my_icon {
+    margin-top: -6%;
+    float: left;
+    position: relative;
+    margin-left: 3%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031672}}
+  #block-system-main .container .tour_webform .block-webform form label {
+    font-size: 14px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031684}}
 #block-system-main .container .paragraphs-items-field-about-company-about-layout {
   float: left;
   width: 100%;
   margin-top: 5%;
-  margin-bottom: 5%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031345}}
+  margin-bottom: 3%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031691}}
   #block-system-main .container .paragraphs-items-field-about-company-about-layout .border_box {
     float: left;
     width: 43%;
@@ -1312,14 +1583,14 @@ label.error {
     border-radius: 100px;
     height: 100px;
     margin: 0 28%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031352}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031698}}
     #block-system-main .container .paragraphs-items-field-about-company-about-layout .border_box .fa {
       float: left;
       font-size: 3em;
       margin-left: 30%;
       margin-top: -25%;
       color: #fff; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031705}}
     #block-system-main .container .paragraphs-items-field-about-company-about-layout .border_box h3 {
       float: left;
       /** margin-left: 27%;
@@ -1327,14 +1598,14 @@ label.error {
       width: 100%;
       text-align: center;
       margin-top: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031715}}
   #block-system-main .container .paragraphs-items-field-about-company-about-layout .field-name-field-text {
     float: left;
     width: 100%;
     text-align: center;
     margin-top: 10px;
     font-size: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031727}}
 #block-system-main .container .social_link_wrapper h2.block-title::after {
   border-bottom: 5px solid #12a9cd;
   content: "";
@@ -1343,30 +1614,32 @@ label.error {
   margin: 0 auto;
   padding-top: 15px;
   width: 123px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031391}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031737}}
 #block-system-main .container .social_link_wrapper h2.block-title {
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
   font-style: italic;
-  color: #C7C7C7;
-  margin-bottom: 25px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031398}}
+  color: #929292;
+  margin-bottom: 25px;
+  font-family: FreeStyleScript;
+  line-height: 36px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031746}}
 #block-system-main .container .social_link_wrapper ul {
   float: left;
   width: auto;
   margin: 0 27%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031402}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031750}}
   #block-system-main .container .social_link_wrapper ul li {
     float: left;
     text-align: center;
     margin: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031407}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031755}}
     #block-system-main .container .social_link_wrapper ul li a .fa {
       font-size: 2.5em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031410}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031758}}
     #block-system-main .container .social_link_wrapper ul li a span {
       display: none; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031419}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031767}}
 #block-system-main .container .box-img h5 {
   text-align: center;
   text-transform: uppercase;
@@ -1374,40 +1647,52 @@ label.error {
   border: 1px solid #ccc;
   font-size: 23px;
   color: #fff;
-  background: #13A9CE; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031427}}
+  background-color: #12a9cd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031775}}
   #block-system-main .container .box-img h5 span {
     font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031431}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031779}}
 #block-system-main .container .box-img p {
-  color: #8C8C8C; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031435}}
+  color: #929292;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031786}}
 #block-system-main .container .box-img .body_about {
-  color: #6D6D6D;
+  color: #929292;
   margin-top: 20px;
-  font-size: 15px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031439}}
+  font-size: 14px;
+  line-height: 22px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031791}}
+  #block-system-main .container .box-img .body_about p {
+    font-size: 14px;
+    line-height: 22px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031795}}
   #block-system-main .container .box-img .body_about ul {
     list-style-type: disc;
     margin-left: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031442}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031798}}
     #block-system-main .container .box-img .body_about ul li {
       list-style: initial; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031450}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031806}}
 #block-system-main .container .top-header {
   text-align: center;
   margin-bottom: 40px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031453}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031809}}
   #block-system-main .container .top-header h2 {
     text-transform: uppercase;
-    font-weight: bold; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031456}}
+    font-weight: 900; }
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031812}}
     #block-system-main .container .top-header h2 span {
       color: #13A9CE; }
-@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031460}}
+@media -sass-debug-info{filename{font-family:file\:\/\/C\:\/xampp\/htdocs\/travel\/sites\/all\/themes\/traveljordan\/css\/style\.scss}line{font-family:\000031816}}
   #block-system-main .container .top-header p {
     font-style: italic;
-    font-size: 16px; }
+    font-size: 26px;
+    font-family: FreestyleScript;
+    font-weight: 400;
+    line-height: 36px;
+    color: #929292; }
 
 /** MB Changes Ends Here **/
 
