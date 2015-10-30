@@ -1317,6 +1317,37 @@ label.error {
 
 /* End of testimonial sidebar */
 
+/** contact us */
+
+.field-name-request-a-quote {
+  background-color: #FF9F00;
+  margin-bottom: 20px;
+  a.request_new {
+    text-align: center;
+    color: #fff;
+    &:hover {
+      text-decoration: none;
+    }
+    i {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+}
+
+.field-name-site-address {
+  background-color: #333333;
+  .box_1 h2::after {
+    border-bottom: 3px solid white;
+    content: " ";
+    display: block;
+    margin-top: 10px;
+    width: 30%;
+  }
+}
+
+/** end of contact us */
+
 /** MB Changes Starts Here **/
 
 #block-block-3 {
