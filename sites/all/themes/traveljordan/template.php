@@ -177,6 +177,10 @@ function traveljordan_preprocess_node(&$variables) {
     $variables['content']['link_request_an_offer'][0] = array(
       '#markup' => l($link_prefix . 'Request an Offer', 'node', array('html' => true)),
     );
+
+    module_load_include('inc', 'reviews', 'includes/reviews.pages'); 
+    $form = $form_state = array();
+    $variables['review_form'] = drupal_render(drupal_get_form('reviews_add_review', (arg(1))));
   }
 
   $site_name = preg_split('/\s/', variable_get('site_name'));
