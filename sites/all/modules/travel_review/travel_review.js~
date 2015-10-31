@@ -1,0 +1,19 @@
+(function($) {
+  $( document ).ready(function() {
+    if ($('.node-type-tours').length) {
+      $('.add-review-link a').click(function(event){ alert('clicked'); 
+        event.preventDefault();
+        popupFormsFormShow('reviews_add_review');
+        if ($('iframe').length) {
+          $('.node-type-tours iframe').css({
+            'width':"60%",
+            'z-index': 9999,
+            'margin-left': 5px;
+          });
+          $('iframe #edit-review-format').remove();
+        }
+      });
+    }
+  })
+})(jQuery); 
+

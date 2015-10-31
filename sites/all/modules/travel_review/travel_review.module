@@ -1,0 +1,9 @@
+<?php
+/**
+ * Implements hook_form_alter().
+ */
+function travel_review_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'reviews_add_review') {
+    $form['review']['#type'] = 'textarea';
+  }
+}
