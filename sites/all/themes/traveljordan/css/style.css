@@ -1186,14 +1186,50 @@ label.error {
         color: #fff; }
       .view-blog.view-display-id-block_2 .view-content #views-bootstrap-carousel-1 .views-field-field-category {
         position: absolute;
-        top: 0px;
-        background: #fff; }
+        top: 40px; }
+        .view-blog.view-display-id-block_2 .view-content #views-bootstrap-carousel-1 .views-field-field-category a {
+          color: #fff;
+          line-height: 48px; }
+        .view-blog.view-display-id-block_2 .view-content #views-bootstrap-carousel-1 .views-field-field-category a::after {
+          border-bottom: 5px solid #fff;
+          content: "";
+          display: block;
+          height: 1px;
+          margin: 0px;
+          padding-top: 0px;
+          width: 123px; }
       .view-blog.view-display-id-block_2 .view-content #views-bootstrap-carousel-1 .carousel-control .icon-prev {
         margin-top: -35px;
         margin-left: 5px; }
       .view-blog.view-display-id-block_2 .view-content #views-bootstrap-carousel-1 .carousel-control .icon-next {
         margin-top: -35px;
         margin-right: 5px; }
+
+#block-views-category-list-block {
+  background-color: #f2f2f2;
+  padding: 10px 7%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 48px; }
+  #block-views-category-list-block h2.block-title {
+    color: #2d343e;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 48px; }
+  #block-views-category-list-block h2.block-title::after {
+    border-bottom: 5px solid #2d343e;
+    content: "";
+    display: block;
+    height: 1px;
+    margin: 0px;
+    padding-top: 0px;
+    width: 123px; }
+  #block-views-category-list-block .view-category-list.view-display-id-block .view-content tbody tr td a {
+    font-size: 14px;
+    font-weight: 400;
+    color: #2d343e;
+    background: url(/sites/all/themes/traveljordan/images/black_arrow.png); }
 
 #block-system-main-menu {
   background-color: #2d343e;

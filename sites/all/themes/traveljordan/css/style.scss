@@ -1496,8 +1496,23 @@ text-align: center;
 				
 				.views-field-field-category {
 					position: absolute;
-					top: 0px;
-					background: #fff;
+					top: 40px;					
+					
+					a{
+						color: #fff;
+						line-height: 48px;
+					}
+					
+					a::after {
+						border-bottom: 5px solid #fff;
+						content: "";
+						display: block;
+						height: 1px;
+						margin: 0px;
+						padding-top: 0px;
+						width: 123px;
+					}
+					
 				}
 				
 				.carousel-control {
@@ -1514,7 +1529,51 @@ text-align: center;
 		}
 	}
 
-
+	#block-views-category-list-block {
+		background-color: #f2f2f2;
+		padding: 10px 7%;
+		h2.block-title {
+			color: #2d343e;
+			font-family: Lato;
+			font-size: 24px;
+			font-weight: 700;
+			line-height: 48px;
+		}
+		
+		h2.block-title::after {
+			border-bottom: 5px solid #2d343e;
+			content: "";
+			display: block;
+			height: 1px;
+			margin: 0px;
+			padding-top: 0px;
+			width: 123px;
+		}
+		
+		.view-category-list.view-display-id-block {
+			.view-content {
+				tbody {
+					tr {
+						td {
+							a {
+								font-size: 14px;
+								font-weight: 400;
+								color: #2d343e;
+								background: url(/sites/all/themes/traveljordan/images/black_arrow.png);
+							}
+						}
+					}
+				}
+			}
+		}  
+		
+		font-size: 14px;
+font-weight: 400;
+line-height: 48px;
+		
+	}
+	
+	
 	#block-system-main-menu {
 		background-color: #2d343e;
 		color: #fff;
