@@ -1,0 +1,4 @@
+name = Travel Reviews
+description = "Provides reviews customization"
+core = 7.x
+package = Custom
